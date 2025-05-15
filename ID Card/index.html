@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP Kabaddi Group - Ultra Compact ID Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Basic Reset and Font Setup - Kept for body, font loading, and global box-sizing */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #e0e0e0; 
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; 
+            padding: 20px 10px; /* Slightly reduced body padding */
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- ID Card Front: Further Compacted -->
+    <div style="
+        width: 210px; /* Slightly reduced width */
+        height: 330px; /* Slightly reduced height */
+        border-radius: 16px; /* Slightly smaller radius */
+        overflow: hidden;
+        box-shadow: 0 8px 25px rgba(0, 20, 40, 0.12); /* Softer shadow for less visual weight */
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        position: relative;
+    ">
+        <!-- Card Top Section -->
+        <div style="
+            background: linear-gradient(135deg, #00579B, #003366); 
+            padding: 9px 11px; /* Reduced padding */
+            display: flex;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        ">
+            <img src="logo1.png" alt="Logo" style="
+                width: 30px; /* Reduced size */
+                height: 30px; /* Reduced size */
+                object-fit: contain;
+                margin-right: 7px; /* Reduced margin */
+                border-radius: 50%;
+                background-color: rgba(255,255,255,0.05);
+                padding: 1.5px; 
+            ">
+            <h1 style="
+                font-size: 13px; /* Reduced font size */
+                font-weight: 600;
+                color: #FFFFFF;
+                margin: 0;
+                line-height: 1.2; 
+            ">SP Kabaddi Group</h1>
+        </div>
+
+        <!-- Card Photo Section -->
+        <div style="
+            margin-top: -8px; /* Reduced pull-up */
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        ">
+            <img src="profile.png" alt="Profile" style="
+                width: 89px; /* Reduced size */
+                height: 102px; /* Reduced size */
+                object-fit: cover;
+                border: 3px solid #ffffff; 
+                border-radius: 50%;
+                box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1); /* Softer shadow */
+                background-color: #e0e0e0;
+            ">
+        </div>
+
+        <!-- Card Details Section -->
+        <div style="
+            padding: 7px 11px 9px 11px; /* Reduced padding */
+            text-align: center;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        ">
+            <h2 style="
+                font-size: 14px; /* Reduced font size */
+                font-weight: 700;
+                color: #003366;
+                margin-bottom: 1px; 
+                margin-top: 5px; /* Reduced margin */
+            ">Praveen Kumar</h2>
+            <p style="
+                font-size: 8.5px; /* Reduced font size */
+                font-weight: 500;
+                color: #FF6F00;
+                margin-bottom: 9px; /* Reduced margin */
+                text-transform: uppercase;
+                letter-spacing: 0.3px; /* Slightly reduced letter-spacing */
+            ">SP Kabaddi Group Member</p>
+
+            <!-- Detail Grid -->
+            <div style="
+                display: grid;
+                grid-template-columns: auto 1fr;
+                gap: 3.5px 5px; /* Reduced gap */
+                text-align: left;
+                font-size: 8.5px; /* Reduced base font size for grid */
+                margin-top: auto;
+                line-height: 1.25; /* Adjusted line height */
+            ">
+                <span style="font-weight: 600; color: #333; font-size: 8px; align-self: start;">ID No:</span>
+                <span style="font-weight: 600; color: #003366; word-wrap: break-word; font-size: 8.5px;">SPKG-00789</span>
+
+                <span style="font-weight: 600; color: #333; font-size: 8px; align-self: start;">DOB:</span>
+                <span style="font-weight: 500; color: #111; word-wrap: break-word; font-size: 8.5px;">15-Jan-2003</span>
+
+                <span style="font-weight: 600; color: #333; font-size: 8px; align-self: start;">Blood:</span>
+                <span style="font-weight: 700; color: #C62828; word-wrap: break-word; font-size: 8.5px;">B+</span>
+                
+                <span style="font-weight: 600; color: #333; font-size: 8px; align-self: start;">Phone:</span>
+                <span style="font-weight: 500; color: #111; word-wrap: break-word; font-size: 8.5px;">+91 9504904499</span>
+                
+                <span style="grid-column: 1 / -1; font-weight: 600; color: #333; font-size: 8px; margin-top: 2.5px;">Address:</span>
+                <span style="grid-column: 1 / -1; font-weight: 500; color: #111; word-wrap: break-word; font-size: 8px; line-height: 1.2;">New Station RLY Coloney Dhanbad.</span>
+                
+                <span style="grid-column: 1 / -1; font-weight: 600; color: #333; font-size: 8px; margin-top: 2.5px;">Father's:</span>
+                <span style="grid-column: 1 / -1; font-weight: 500; color: #111; word-wrap: break-word; font-size: 8px;">Shailesh Kumar Giri</span>
+            </div>
+        </div>
+        <!-- Card Bottom Bar -->
+        <div style="
+            height: 5px; /* Reduced height */
+            background: linear-gradient(135deg, #FF8F00, #FF6F00); 
+            margin-top: auto;
+        "></div>
+    </div>
+
+    <!-- ID Card Back: Further Compacted -->
+    <div style="
+        width: 210px; /* Slightly reduced width */
+        height: 330px; /* Slightly reduced height */
+        border-radius: 16px; /* Slightly smaller radius */
+        overflow: hidden;
+        box-shadow: 0 8px 25px rgba(0, 20, 40, 0.12); /* Softer shadow */
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        position: relative;
+    ">
+        <!-- Back Top Section -->
+        <div style="
+            background: linear-gradient(135deg, #00579B, #003366);
+            color: #ffffff;
+            text-align: center;
+            padding: 7px 9px; /* Reduced padding */
+        ">
+            <h3 style="
+                font-size: 11.5px; /* Reduced font size */
+                font-weight: 600;
+                margin-bottom: 1px; 
+            ">SP Kabaddi Group</h3>
+            <p style="
+                font-size: 8px; /* Reduced font size */
+                font-weight: 400;
+                opacity: 0.9;
+            ">Estd. 2017</p>
+        </div>
+
+        <!-- Back Main Content -->
+        <div style="
+            padding: 9px 11px; /* Reduced padding */
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            font-size: 8.5px; /* Reduced base font size */
+            color: #333;
+            line-height: 1.25; /* Adjusted line height */
+        ">
+            <h4 style="
+                font-size: 9.5px; /* Reduced font size */
+                font-weight: 600;
+                color: #003366;
+                margin-bottom: 3.5px; /* Reduced margin */
+                text-align: center;
+            ">About the Club</h4>
+            <p style="
+                text-align: center;
+                margin-bottom: 7px; /* Reduced margin */
+                font-size: 8px; /* Reduced font size */
+                line-height: 1.2; /* Adjusted line height */
+                color: #444;
+            ">Dedicated to fostering Kabaddi talent. We emphasize skill, fitness, strategy, and sportsmanship.</p>
+
+            <!-- QR Section -->
+            <div style="
+                text-align: center;
+                margin: 5px 0; /* Reduced margin */
+            ">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=65x65&data=SPKG-00789_Praveen%20Kumar" alt="QR Code" style="
+                    width: 65px; /* Reduced size */
+                    height: 65px; /* Reduced size */
+                    border: 1.5px solid #004A99; /* Thinner border */
+                    border-radius: 2.5px; /* Slightly smaller radius */
+                    margin: 0 auto 3.5px auto; /* Reduced bottom margin */
+                    display: block;
+                    background-color: #fff;
+                ">
+                <p style="
+                    font-size: 8px; /* Reduced font size */
+                    font-weight: 500;
+                    color: #003366;
+                ">Scan for Details</p>
+            </div>
+
+            <!-- Issuing Info -->
+            <div style="
+                font-size: 8px; /* Reduced font size */
+                text-align: center;
+                margin: 5px 0 2.5px 0; /* Reduced margins */
+                padding-top: 5px; /* Reduced padding */
+                border-top: 1px dashed #004A99;
+                color: #444;
+            ">
+                <p><strong style="color: #003366;">Issued By:</strong> Club Authority</p>
+                <p><strong style="color: #003366;">Valid From:</strong> 20-Sep-2017</p>
+            </div>
+            <div style=" 
+                font-size: 8px; /* Reduced font size */
+                text-align: center;
+                margin: 2.5px 0 5px 0; /* Reduced margins */
+                color: #444;
+                word-wrap: break-word;
+                line-height: 1.2; /* Adjusted line height */
+            ">
+                <p><strong style="color: #003366;">Venue:</strong> Gandhiroad Hanuman Mandir, Dhanbad - 826001</p>
+            </div>
+
+            <!-- Contact Info -->
+            <div style="
+                font-size: 7.5px; /* Reduced font size */
+                text-align: center;
+                color: #555;
+                margin-top: auto;
+                padding-top: 5px; /* Reduced padding */
+                border-top: 1px solid #FF8F00;
+                line-height: 1.2; /* Adjusted line height */
+                word-wrap: break-word;
+            ">
+                <p>If found, please return to Club Office or call: +91 8271882034</p>
+                <p>spkabaddigroupdhanbad@gmail.com</p>
+            </div>
+        </div>
+        <!-- Card Bottom Bar -->
+        <div style="
+            height: 4.5px; /* Reduced height */
+            background: linear-gradient(135deg, #FF8F00, #FF6F00); 
+        "></div>
+    </div>
+
+</div>
+</body>
+</html>
